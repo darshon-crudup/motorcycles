@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+p.one {
+    border-style: solid;
+    border-color: rgb(255, 0, 0) rgb(255, 0, 0) rgb(255, 0, 0) rgb(255, 0, 0); /* red top, green right, ble bottom and yellow left */
+}
+
+div.ex1 {
+    width: 1200px;
+    margin: auto;
+    border: 3px solid #ffffff;
+}
+
+a {
+    color: red;
+}
