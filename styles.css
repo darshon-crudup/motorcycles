@@ -5,7 +5,7 @@ body{
 
 p.one {
     border-style: solid;
-    border-color: rgb(255, 0, 0) rgb(255, 0, 0) rgb(255, 0, 0) rgb(255, 0, 0); /* red top, green right, ble bottom and yellow left */
+    border-color: rgba(255, 0, 0, 0.918) rgba(255, 0, 0, 0.87) rgba(255, 0, 0, 0.705) rgba(255, 0, 0, 0.589); /* red top, green right, ble bottom and yellow left */
 }
 
 div.ex1 {
