@@ -3,8 +3,6 @@ function verify() {
 
     console.log("verify", verify);
 
-    let verify=prompt("Are you over 18");
-
     if (!verify) {
         console.log("Do you have a license");
         verify = prompt("Please confirm if you are 18 to 21 years old" + "!"); + "!";
