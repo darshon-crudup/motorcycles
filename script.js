@@ -1,22 +1,3 @@
-function verify() {
-	let verify = prompt("Verify your age!");
-
-    console.log("verify", verify);
-
-    if (!verify) {
-        console.log("Do you have a license");
-        verify = prompt("Please confirm if you are 18 to 21 years old" + "!"); + "!";
-    }
-
-    if (!verify) {
-        console.log("You must have a valid license to test drive a motorcycle");
-        alert("Denied Access" + "!")
-    }
-    else {
-        document.write("Approved, schedule your test drive today " + verify + "!");
-    }
-
-
 function Darshon (){
 let introduction = prompt('What\'s your name?')
 document.write('Hello '+ introduction)
@@ -40,10 +21,27 @@ if (likesducati ===true){
 } else{
     document.write('I don\'t believe you')
 }
+function verify() {
+	let verify = prompt("Verify your age!");
+
+    console.log("verify", verify);
+
+    if (!verify) {
+        console.log("Do you have a license");
+        verify = prompt("Please confirm if you are 18 to 21 years old" + "!"); + "!";
+    }
+
+    if (!verify) {
+        console.log("You must have a valid license to test drive a motorcycle");
+        alert("Denied Access" + "!")
+    }
+    else {
+        document.write("Approved, schedule your test drive today " + verify + "!");
 }
 
 Darshon();
 motorcycle();
 ducati();
 verify();
+}
 }
