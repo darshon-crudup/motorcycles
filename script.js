@@ -12,10 +12,12 @@ function verifyCheck() {
             return verifyCheck;
         }
     } else {
+        document.write('Your are approved for a test ride');
         verifyCheck();
     }
 }
-verifyCheck();
+    verifyCheck();
+
 
 function Darshon (){
 let introduction = prompt('What\'s your name?');
