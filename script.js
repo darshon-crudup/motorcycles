@@ -1,18 +1,21 @@
-function username() {
-    let username = prompt("Are you over 18");
+function verify() {
+	let verify = prompt("Verify your age!");
 
-    console.log("username", username);
-    if (!username) {
+    console.log("verify", verify);
+
+    let user verify = prompt("Are you over 18");
+
+    if (!verify) {
         console.log("Do you have a license")
-        username = prompt("Please confirm if you are 18 to 21 years old") + "!";
+        verify = prompt("Please confirm if you are 18 to 21 years old" + "!"); + "!";
     }
-    
-    if (!username) {
-        console.log("You must have a valid license to test drive")
+
+    if (!verify) {
+        console.log("You must have a valid license to test drive a motorcycle")
         alert("Denied Access" + "!")
     }
     else {
-        document.write("Approved, schedule your test drive today " + username + "!");
+        document.write("Approved, schedule your test drive today " + verify + "!");
     }
 
 
