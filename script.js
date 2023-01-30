@@ -1,3 +1,22 @@
+//Age Verification
+
+alert("Please verify your age for a test drive");
+
+function verifyCheck() {
+    let verify = prompt("Are you over 18? Yes or No");
+
+    if (verify) {
+        while (verify.toLowerCase() !=="yes") {
+            verifyCheck();
+            console.log(verify);
+            return verify;
+        }
+    {else {
+        verifyCheck();
+    }
+}
+verifyCheck();
+}
 function Darshon (){
 let introduction = prompt('What\'s your name?');
 document.write('Hello '+ introduction)
@@ -11,8 +30,8 @@ if (likesyamaha ===true){
 } else {
     document.write('Not cool');
 }
-}
 
+}
 function ducati(){
 let likesducati = confirm("Do you like this 2022 Ducati Diavel?");
 
@@ -25,7 +44,9 @@ function verify(){
 	let verify = prompt("Verify your age!");
 }
 
+verifyCheck();
 Darshon();
 motorcycle();
 ducati();
+}
 }
