@@ -10,13 +10,13 @@ function verifyCheck() {
             verifyCheck();
             console.log(verifyCheck);
             return verifyCheck;
+            }  
+        } else {
+            verifyCheck();
         }
-    } else {
-        document.write('Your are approved for a test ride');
         verifyCheck();
-    }
-}
-    verifyCheck();{
+        
+        document.write('Your are approved for a test ride!');
 
 function Darshon (){
 let introduction = prompt('What\'s your name?');
