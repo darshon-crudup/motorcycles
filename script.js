@@ -3,7 +3,7 @@
 alert("You must be 21 and older to enter this site");
 
 function verifyCheck() {
-    let verifyCheck = prompt("Are you over 18? Yes or No")
+    let verifyCheck = prompt("Are you over 18? Yes or No");
 
     if (verifyCheck) {
         while (verifyCheck.toLowerCase() !=="yes") {
@@ -14,14 +14,14 @@ function verifyCheck() {
         } else {
             verifyCheck();
         }
+}        
         verifyCheck();
-        
+
         document.write('Your are approved for a test ride!');
 
 function Darshon (){
 let introduction = prompt('What\'s your name?');
 document.write('Hello '+ introduction)
-}
 }
 function motorcycle(){
 let likesyamaha = confirm("Would you like to buy a motorcycle?");
