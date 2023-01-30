@@ -16,14 +16,13 @@ function verifyCheck() {
         verifyCheck();
     }
 }
-    verifyCheck();
-
+    verifyCheck();{
 
 function Darshon (){
 let introduction = prompt('What\'s your name?');
 document.write('Hello '+ introduction)
 }
-
+}
 function motorcycle(){
 let likesyamaha = confirm("Would you like to buy a motorcycle?");
 
