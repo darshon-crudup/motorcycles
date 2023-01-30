@@ -1,9 +1,9 @@
 //Age Verification
 
-alert("Please verify your age for a test drive");
+alert("You must be 21 and older to enter this site");
 
 function verifyCheck() {
-    let verifyCheck = prompt("Are you over 18? Yes or No");
+    let verifyCheck = prompt("Are you over 18? Yes or No")
 
     if (verifyCheck) {
         while (verifyCheck.toLowerCase() !=="yes") {
