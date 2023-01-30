@@ -3,7 +3,7 @@ function verify() {
 
     console.log("verify", verify);
 
-    let user verify = prompt("Are you over 18");
+    let verify=prompt("Are you over 18");
 
     if (!verify) {
         console.log("Do you have a license")
