@@ -3,20 +3,20 @@
 alert("Please verify your age for a test drive");
 
 function verifyCheck() {
-    let verify = prompt("Are you over 18? Yes or No");
+    let verifyCheck = prompt("Are you over 18? Yes or No");
 
-    if (verify) {
-        while (verify.toLowerCase() !=="yes") {
+    if (verifyCheck) {
+        while (verifyCheck.toLowerCase() !=="yes") {
             verifyCheck();
-            console.log(verify);
-            return verify;
+            console.log(verifyCheck);
+            return verifyCheck;
         }
-    {else {
+    } else {
         verifyCheck();
     }
 }
 verifyCheck();
-}
+
 function Darshon (){
 let introduction = prompt('What\'s your name?');
 document.write('Hello '+ introduction)
@@ -49,4 +49,4 @@ Darshon();
 motorcycle();
 ducati();
 }
-}
+
