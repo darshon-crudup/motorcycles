@@ -38,7 +38,6 @@ function verify(){
     else {
         document.write("Approved, schedule your test drive today " + verify + "!");
 }
-
 Darshon();
 motorcycle();
 ducati();
