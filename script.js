@@ -5,8 +5,8 @@ function username() {
     if (!username) {
         console.log("Do you have a license")
         username = prompt("Please confirm if you are 18 to 21 years old") + "!";
-
     }
+    
     if (!username) {
         console.log("You must have a valid license to test drive")
         alert("Denied Access" + "!")
