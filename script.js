@@ -1,3 +1,21 @@
+function username() {
+    let username = prompt("Are you over 18");
+
+    console.log("username", username);
+    if (!username) {
+        console.log("Do you have a license")
+        username = prompt("Please confirm if you are 18 to 21 years old") + "!";
+
+    }
+    if (!username) {
+        console.log("You must have a valid license to test drive")
+        alert("Denied Access" + "!")
+    }
+    else {
+        document.write("Approved, schedule your test drive today " + username + "!");
+    }
+
+
 function Darshon (){
 let introduction = prompt('What\'s your name?')
 document.write('Hello '+ introduction)
