@@ -17,12 +17,11 @@ function verifyCheck() {
 }        
         verifyCheck();
 
-        document.write('Your are approved for a test ride!');
-
 function Darshon (){
 let introduction = prompt('What\'s your name?');
 document.write('Hello '+ introduction)
 }
+
 function motorcycle(){
 let likesyamaha = confirm("Would you like to buy a motorcycle?");
 
@@ -31,7 +30,6 @@ if (likesyamaha ===true){
 } else {
     document.write('Not cool');
 }
-
 }
 function ducati(){
 let likesducati = confirm("Do you like this 2022 Ducati Diavel?");
