@@ -21,7 +21,7 @@ if (likesducati ===true){
 } else{
     document.write('I don\'t believe you')
 }
-function verify() {
+function verify(){
 	let verify = prompt("Verify your age!");
 
     console.log("verify", verify);
